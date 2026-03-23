@@ -76,9 +76,6 @@ Password: hotel@2024
 ```
 YYYY-MM-DD  →  e.g.  2025-06-15
 ```
-
----
-
 ```
 ╔══════════════════════════════════════╗
 ║          PROJECT STRUCTURE           ║
@@ -94,8 +91,6 @@ hotel/
 ├── bookings.dat        ← Auto-generated: booking records
 └── README.md
 ```
-
----
 
 ```
 ╔══════════════════════════════════════╗
