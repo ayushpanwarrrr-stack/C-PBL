@@ -66,34 +66,6 @@ password-protected admin panel. All data persists across sessions via binary fil
 ---
 
 ```
-╔══════════════════════════════════════╗
-║         INSTALLATION & USAGE         ║
-╚══════════════════════════════════════╝
-```
-
-**Prerequisites**
-- GCC compiler (MinGW on Windows / GCC on Linux & macOS)
-- Terminal with ANSI color support
-
-**Step 1 — Clone the repository**
-```bash
-git clone https://github.com/your-username/hotel.git
-cd hotel
-```
-
-**Step 2 — Compile**
-```bash
-gcc hotel_system.c -o hotel_system
-```
-
-**Step 3 — Run**
-```bash
-./hotel_system        # Linux / macOS
-hotel_system.exe      # Windows
-```
-
-> On first launch, room data is seeded automatically.  
-> Data files (`rooms.dat`, `customers.dat`, `bookings.dat`) are created in the same directory.
 
 **Admin Access**
 ```
